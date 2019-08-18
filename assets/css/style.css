@@ -131,13 +131,13 @@ input[type=submit] {
 }
 
   .portfolio {
-      margin: 150px;
+      margin: 120px;
       background: white;
-      padding: 20px;
+      padding: 30px;
       height: 320px;
   }
 
-  div.gallery {
+   div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
