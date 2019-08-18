@@ -11,7 +11,7 @@
   <div class="header">
 
     <ul>
-      
+
       <li style="float:right"><a href="contact.html">Contact</a></li>
       <li style="float:right"><a href="portfolio.html">Portfolio</a></li>
       <li style="float:right"><a class="active" href="index.html">About</a></li>
@@ -20,36 +20,41 @@
 
   <!--This is a contact me form-->
   <div class="form">
-    <h2>Contact</h2>
-    <form action="/action_page.php">
+    <div class="container">
+    <form action="">
+      <h1>Contact</h1>
       <div class="row">
         <div class="col-25">
-          <label for="fname">First Name</label>
+          <label for="fname">Name</label>
         </div>
         <div class="col-75">
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <input type="text" id="fname" name="firstname" placeholder="John Smith">
         </div>
       </div>
       <div class="row">
         <div class="col-25">
-          <label for="lname">Last Name</label>
+          <label for="lname">Email</label>
         </div>
         <div class="col-75">
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <input type="email" id="lname" name="email" placeholder="example@gmail.com">
         </div>
       </div>
+
       <div class="row">
         <div class="col-25">
-          <label for="subject">Subject</label>
+          <label for="subject">Message</label>
         </div>
         <div class="col-75">
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <textarea id="Message" name="Message"
+            placeholder="Please leave your Message for University of Utah Bootcamp here"
+            style="height:200px"></textarea>
         </div>
       </div>
       <div class="row">
         <input type="submit" value="Submit">
       </div>
     </form>
+  </div>
   </div>
 
   </div>
