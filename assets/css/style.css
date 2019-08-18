@@ -132,30 +132,17 @@ input[type=submit] {
 
 /* Portfolio-Style*/
 
-  .portfolio {
-      margin: 120px;
-      background: white;
-      padding: 30px;
-      height: 320px;
-  }
+table {
+  background-color: white;
+  width: 60%;
+}
 
-   div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
+td {
+  padding: 5px;
+}
+
+.tablepic {
+  margin: 120px;
+  padding: 10Px;
+  align-content: center;
+}
